@@ -1,0 +1,182 @@
+/* Set background and text colors */
+body { 
+    background: url(https://images.squarespace-cdn.com/content/v1/60e252b14def385c13193860/1631748056707-X36TO4BDD6ML09HQOYFZ/74809_1%2BTROPIC_50.jpg) no-repeat center fixed;
+    background-size: cover;
+    color:#ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the navigation menu */
+nav {
+    background: linear-gradient(135deg, #4b5320 25%, #3b4e21 25%, #3b4e21 50%, #4b5320 50%, #4b5320 75%, #3b4e21 75%, #3b4e21);
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Jemný tieň pre menu */
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase; /* Veľké písmená pre značku */
+    letter-spacing: 1px; /* Väčší rozostup písmen */
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #e0e0e0; /* Svetlejšia farba pre hover efekt */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: #4B5320;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color:None;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease; /* Animácia zmeny farby pre odkazy */
+}
+
+/* Style the banner */
+.jumbotron {
+    background-color: #4B5320;
+    padding: 2rem;
+    border-radius: 0.5rem; /* Mierne zaoblenie rohov */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Tieň pre titulok */
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.25rem;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+/* Style the posts section */
+section {
+    margin-top: 2rem;
+}
+.form-control {
+    background-color: #8aa17f;
+    border: none;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: None;
+    margin-bottom: 2rem;
+    border-radius: 20px!important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Pridaný tieň pre karty */
+
+}
+.card-body{
+    background-color: #4B5320;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+img {
+    border-top-right-radius: 20px!important;
+    border-top-left-radius: 20px!important;
+}
+
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #4B5320;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease; /* Animácia zmeny farby */
+
+}
+.btn:hover,
+.btn:focus {
+    background-color: #3b4e21; /* Tmavšia farba pre hover efekt */
+}
+.w-background {
+    background-color: #4B5320;
+    padding: 15px;
+}
+.white-text {
+    color: #fff;
+}
+/* Style the footer */
+footer {
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.float-end {
+    float: right;
+}
+.background_pole {
+    background-color: #4B5320 !important; 
+}
+.modal-dialog .modal-content {
+    border-radius: 20px; /* Mierne zaoblenie rohov */
+    background-color: #4B5320; /* Zachovanie farby pozadia */
+    padding: 20px; /* Vnútorný odstup */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Silnejší tieň pre väčšiu hĺbku */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Svetlý ohraničenie pre efekt reliéfu */
+    backdrop-filter: blur(5px); /* Rozmazanie pozadia za modálom pre lepší kontrast */
+    transition: all 0.3s; /* Animácia pre všetky zmeny */
+}
+
+/* Animovaný efekt pri zobrazení */
+.modal-dialog .modal-content:hover {
+    transform: scale(1.03); /* Mierne zväčšenie pri prejdení myšou */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* Zväčšenie tieňa pre dynamičnosť */
+}
+
+/* Prípadné štýly pre titulok alebo tlačidlá modálu */
+.modal-title {
+    color: #ffffff; /* Biela farba titulku */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Tieň pod textom pre lepšiu čitateľnosť */
+}
+
+.modal-footer .btn {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Tieň pre tlačidlá */
+}
